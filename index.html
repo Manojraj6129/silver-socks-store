@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Socks Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #6a1b9a, #283593);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #283593;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #6a1b9a;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem;
+            background-image: url('https://source.unsplash.com/1600x900/?socks,fashion');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        .section {
+            padding: 2rem;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            gap: 1.5rem;
+        }
+
+        .category {
+            flex: 1;
+            background: white;
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .category h2 {
+            background: #6a1b9a;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .product {
+            background: #f9f9f9;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 1rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        .product p {
+            margin: 0.5rem 0;
+        }
+
+        .btn {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #283593;
+        }
+
+        .footer {
+            background-color: #283593;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Silver Socks Store</h1>
+    <p>Your Destination for Stylish, Antibacterial Comfort</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Discover the Magic of Silver Socks</h1>
+    <p>Fresh, Odor-Free, and Stylish Options for Every Occasion</p>
+    <a href="#shop" class="btn">Shop Now</a>
+</div>
+
+<section id="shop" class="section">
+    <h2>Our Products</h2>
+    <div class="categories">
+        <!-- Category 1 -->
+        <div class="category">
+            <h2>Classic Socks</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.jzAgYwRekjaw-DpWziIgHgAAAA?rs=1&pid=ImgDetMain" alt="Classic Sock 1">
+                    <h3>Basic Comfort</h3>
+                    <p>Price: $10</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://eriksdigitalcdn.azureedge.net/shop/detail/hlr-system/uk/0000020001/20999.jpg" alt="Classic Sock 2">
+                    <h3>Formal Style</h3>
+                    <p>Price: $12</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="category">
+            <h2>Sports Socks</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.VpejcEfy_wW7GXsRuSWK5AAAAA?rs=1&pid=ImgDetMain" alt="Sport Sock 1">
+                    <h3>Running Socks</h3>
+                    <p>Price: $15</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://www.easeliving.com/cdn/shop/products/micro_dots_new_500.jpg?v=1585863659" alt="Sport Sock 2">
+                    <h3>Gym Essentials</h3>
+                    <p>Price: $18</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="category">
+            <h2>Designer Socks</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.dxYsGWbIsV0SAaqVynUrBQHaHa?rs=1&pid=ImgDetMain" alt="Designer Sock 1">
+                    <h3>Colorful Stripes</h3>
+                    <p>Price: $20</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/R.e257ff1f863b681d3e273fa8623eca57?rik=6uJJfqHFw%2ffDnA&riu=http%3a%2f%2fwww.sock-hound.com%2fwp-content%2fuploads%2f2015%2f08%2f20150307_Socks-2015_0006-3pk.jpg&ehk=nTnbvg0uuR2imymozuKL97T0MismJtLNJ24UUS6mYT0%3d&risl=&pid=ImgRaw&r=0" alt="Designer Sock 2">
+                    <h3>Modern Patterns</h3>
+                    <p>Price: $22</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Silver Socks Store, we blend technology and comfort. Our socks are crafted with silver-infused fibers to ensure freshness, durability, and a stylish look.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@silversocksstore.com</p>
+    <p>Phone: +123 456 7890</p>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Silver Socks Store. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
